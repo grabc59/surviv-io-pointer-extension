@@ -1,14 +1,7 @@
 // background.js
 
-// Called when the user clicks on the browser action.
+// Called when the user clicks on the extension
 chrome.browserAction.onClicked.addListener(function(tab) {
-    // Send a message to the active tab
-    // chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-    //   var activeTab = tabs[0];
-    //   chrome.tabs.sendMessage(activeTab.id, {"message": "clicked_browser_action"});
-    // });
-
-    // open surviv.io in a new tab
-    window.open('surviv.io', '_blank');
-
-  });
+  // open surviv.io in a new tab
+  chrome.tabs.create({"url": "http://surviv.io"});
+});
