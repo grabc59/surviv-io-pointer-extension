@@ -1,8 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Surviv.io Pointer",
-  "version": "0.2",
-  "browser_action": {},
+  "version": "0.3",
+  "browser_action": {
+    "default_icon": "radioactive.png"
+  },
   "content_scripts": [
       {
         "matches": [
