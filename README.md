@@ -10,3 +10,6 @@ The extension icon also doubles as a bookmark for the game.
 
 v0.3
 Added "Radioactive icon" by Lorc is licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/legalcode), unchanged.
+
+v0.4
+Added functionality on proxy sites like surviv2.io, 2dbattleroyale.com
